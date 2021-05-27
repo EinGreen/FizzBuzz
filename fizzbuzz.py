@@ -18,3 +18,8 @@ def fizz_buzz(num):
 
 # Now for the numbers:
 test_nums = [3, 5, 15, 30, 36, 25, 9, 10, 4, 99, 1, 2, 6, 20, 369]
+
+# Finally, the for loop to run fizz_buzz
+for test_num in test_nums:
+    test_fizzbuzz = fizz_buzz(test_num)
+    print(test_fizzbuzz)
