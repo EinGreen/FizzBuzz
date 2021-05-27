@@ -15,3 +15,6 @@ def fizz_buzz(num):
     if(num % 5 == 0):
         result = result + "Buzz"
         return result
+
+# Now for the numbers:
+test_nums = [3, 5, 15, 30, 36, 25, 9, 10, 4, 99, 1, 2, 6, 20, 369]
